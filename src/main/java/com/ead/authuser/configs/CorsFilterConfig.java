@@ -20,7 +20,7 @@ public class CorsFilterConfig implements Filter {
             "http://localhost:4200",
             "http://localhost:5000"
     };
-    public static final String[] METHODS_LIST = {"GET", "POST", "PUT", "PATCH", "DELETE", "OPTION"};
+    public static final String[] METHODS_LIST = {"GET", "POST", "PUT", "PATCH", "DELETE"};
     public static final String[] HEADERS = {"accept", "apikey", "Authorization"};
 
     @Override
